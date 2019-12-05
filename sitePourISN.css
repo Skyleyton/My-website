@@ -1,0 +1,89 @@
+@font-face
+{ 
+	font-family: 'Christmas Ribby'; /* Je vais définir la police que je vais utiliser */
+	src: url('Christmas Ribby - Personal Use.otf');
+}
+
+h1
+{ 
+	font-size: 5em; /* Je change la taille des titres h1*/
+	font-family: 'Christmas Ribby'; /* Je vais utiliser la police que j'ai défini */
+	color: red;
+
+}
+
+.jurassique
+{
+	text-align: center; /* J'aligne le texte au milieu */
+	border: 3px red dashed; /* Je mets un contour rouge sous forme de tiraits */
+	border-left: 3px red groove; /* Je mets le contour gauche rouge */
+	border-right: 3px red groove; /* Je mets le contoue droit rouge */
+}
+
+.dino
+{
+	color: yellow; /* Le class dino est en jaune */
+	font-style: italic; /* Je mets le titre h2 en italique */
+	text-decoration: underline; /* Je souligne la class dino */
+	border: 3px ridge yellow;
+}
+
+.consigne
+{
+	color: orange; /* Le class consigne est en orange */
+	font-style: oblique; /* Je mets le titre h2 en oblique */
+	text-shadow: 2px 2px 4px orange; /* Je mets des ombres au texte choisis */
+}
+
+.époque
+{
+	color: darkgrey; /* Je mets la couleur en gris */
+}
+
+.creta
+{
+	font-style: italic;
+}
+
+.ichty
+{
+	font-style: italic;
+}
+
+.plesios
+{
+	font-style: italic;
+}
+
+.sauros
+{
+	font-style: italic;
+}
+
+.partie
+{
+	color: brown; /* Le class partie est en marron */
+}
+
+.danger
+{
+	color: red; /* Le class danger est en rouge */
+}
+
+.serieux
+{
+	color: darkorange;
+	text-align: center;
+}
+
+.image
+{
+	color: lightblue; /* Le class image est en bleu clair, ça je l'ai trouvé tt seule :) */
+	text-align: center;
+}
+
+body
+{
+	background: url("contenuSiteWebISN/solei.png") fixed no-repeat top right, url("contenuSiteWebISN/merdeglace.jpg") fixed no-repeat;
+}
+
